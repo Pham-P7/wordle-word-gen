@@ -5,7 +5,7 @@ public class rWg
 {
   public static String Gen() throws Exception
   {
-    File file = new File("file location here");
+    File file = new File("C:\\coding and game design\\Comp. Sci I\\God help me\\my\\LaW.txt");
     Scanner sc = new Scanner(file);
     String list[] = {};
     while (sc.hasNextLine()){
