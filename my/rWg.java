@@ -13,7 +13,7 @@ public class rWg
     }
     sc.close();
     int pick = (int)(Math.random() * list.length);
-    return list[pick];
+    return list[pick].toLowerCase();
   }
   public static String[] add(String arr[],String n){
     String[] list = new String[arr.length + 1];
